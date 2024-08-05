@@ -1,13 +1,13 @@
 模型量化
 流程:计算Scale=>量化=>截断=>反量化
 标准量化公式：
-![alt text](image.png)
+![alt text](./pictures/image.png)
 
 非对称量化：
-![alt text](image-1.png)
+![alt text](./pictures/image-1.png)
 
 对称量化：
-![alt text](image-2.png)
+![alt text](./pictures/image-2.png)
 
 对称量化 vs. 非对称量化
 在这里阐述下对称量化和非对称量化的优缺点(from chatGPT)
