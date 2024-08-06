@@ -1,14 +1,12 @@
-Quantization/
-
-
-├── pictures 图片资源
-├── README.md 说明文档 
-└── src 源码
-    ├── export-onnx 输出onnx
-    ├── ptq  PTQ量化
-    ├── qat  QAT量化
-    ├── range 选择range的方法
-    └── static-quan 静态量化
+- `Quantization`:
+ - `pictures`: 图片资源存放目录，用于存储项目相关的图像文件。
+ - `README.md`: 说明文档，当前你正在阅读的文件，包含了项目的概述和目录结构介绍。
+ - `src`: 源码目录，包含所有源代码和相关脚本。
+   - `export-onnx`: 输出ONNX模型的脚本和配置文件，用于模型转换。
+   - `ptq`: PTQ(Post-Training Quantization)量化目录，用于对预训练模型进行量化处理。
+   - `qat`: QAT(Quantization-Aware Training)量化目录，用于在训练过程中集成量化意识。
+   - `range`: 选择Range的方法目录，用于确定量化范围的策略和实现。
+   - `static-quan`: 静态量化目录，包含静态量化方法的相关脚本和配置。
 
 模型量化
 流程:计算Scale=>量化=>截断=>反量化
