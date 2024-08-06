@@ -1,3 +1,12 @@
+Quantization/
+├── pictures 图片资源
+├── README.md 说明文档  
+└── src 源码
+    ├── export-onnx 输出onnx
+    ├── ptq  PTQ量化
+    ├── qat  QAT量化
+    ├── range 选择range的方法
+    └── static-quan 静态量化
 
 模型量化
 流程:计算Scale=>量化=>截断=>反量化
